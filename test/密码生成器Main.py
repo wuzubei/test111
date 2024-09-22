@@ -29,4 +29,6 @@ class MyPwdSC(Ui_PasswordGenerate, QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     myPwdSC = MyPwdSC()
+
+
     sys.exit(app.exec())
